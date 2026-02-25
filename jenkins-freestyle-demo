@@ -1,3 +1,5 @@
-echo "Hello from GitHub repo!"
-echo "Listing repo files:"
-bat "dir"
+node {
+    echo "Hello from GitHub repo!"
+    echo "Listing repo files:"
+    bat "dir"     // use sh "ls -l" if Linux
+}
